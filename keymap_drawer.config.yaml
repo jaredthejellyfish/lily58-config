@@ -16,6 +16,13 @@ draw_config:
     .held { fill: #ffd700; }
     .ghost { fill: #e0e0e0; }
     .footer { font-size: 12px; }
+    
+    /* Make all text white */
+    text { fill: white; }
+    .key text { fill: white; }
+    .legend text { fill: white; }
+    .footer text { fill: white; }
+    .combo text { fill: white; }
 
   # Key styling
   key_w: 60
