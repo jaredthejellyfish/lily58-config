@@ -35,6 +35,3 @@ draw_config:
 
   # Layer rendering
   separate_combo_diagrams: false
-
-  # Footer text
-  footer_text: "Generated with keymap-drawer"
