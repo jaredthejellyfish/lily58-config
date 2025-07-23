@@ -47,7 +47,7 @@ This repository uses [keymap-drawer](https://github.com/caksoylar/keymap-drawer)
 
 Visual keymap diagrams are automatically generated and can be found in the `keymap-drawer/` folder after the first workflow run:
 
-`keymap-drawer/lily58.svg`
+![Lily58 Keymap](keymap-drawer/lily58.svg)
 
 > **Note**: The visual diagrams will be generated automatically when you push changes to your keymap files. If this is your first time setting up the repository, trigger the "Draw ZMK keymaps" workflow manually from the Actions tab to generate the initial diagrams.
 
