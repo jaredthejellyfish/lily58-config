@@ -1,0 +1,33 @@
+parse_config:
+  # Remove any locale prefixes if using zmk-locales
+  zmk_remove_keycode_prefix: []
+
+  # Specify layer names to avoid auto-detection issues
+  layer_names:
+    - "Base"
+    - "Lower"
+    - "Raise"
+
+draw_config:
+  # SVG styling and layout
+  svg_style: |
+    /* Custom styling for better readability */
+    .combo { fill: #ff0000; }
+    .held { fill: #ffd700; }
+    .ghost { fill: #e0e0e0; }
+    .footer { font-size: 12px; }
+
+  # Key styling
+  key_w: 60
+  key_h: 56
+  key_rx: 6
+  key_ry: 6
+
+  # Split keyboard specific
+  split_gap: 30
+
+  # Layer rendering
+  separate_combo_diagrams: false
+
+  # Footer text
+  footer_text: "Generated with keymap-drawer"
