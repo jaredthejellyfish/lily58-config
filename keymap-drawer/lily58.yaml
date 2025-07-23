@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: lily58}
 layers:
-  Base: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '=', TAB, Q, W, E, R, T, Y, U, I, O, P, '-', LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z,
-    X, C, V, B, '[', ']', N, M, ',', ., /, Ctl+`, LALT, LGUI, Lower, SPACE, RET, Raise, BSPC, RGUI]
+  Base: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '=', TAB, Q, W, E, R, T, Y, U, I, O, P, '-', LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', '&td_shift_caps',
+    Z, X, C, V, B, '[', ']', N, M, ',', ., /, Ctl+`, LALT, LGUI, Lower, SPACE, RET, Raise, BSPC, RGUI]
   Lower:
   - BT CLR
   - {t: BT, h: '0'}
