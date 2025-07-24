@@ -68,9 +68,9 @@ layers:
   - MUTE
   - BRI DN
   - BRI UP
-  - AC DESKTOP SHOW ALL WINDOWS
+  - Ctl+UP
   - ''
-  - AC DESKTOP
+  - Gui+F3
   - ''
   - ''
   - ''
@@ -82,7 +82,7 @@ layers:
   - VOL UP
   - ''
   - UP ARROW
-  - AC DESKTOP SHOW ALL APPLICATIONS
+  - Ctl+DOWN
   - ''
   - ''
   - ''
