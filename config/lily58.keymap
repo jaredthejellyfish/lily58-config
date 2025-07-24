@@ -96,10 +96,10 @@
 
             display-name = "Raise";
             bindings = <
-&trans  &none  &none  &none   &none               &none                                  &none           &none           &none            &none  &none  &none
-&trans  &none  &none  &none   &none               &none                                  &none           &kp UP_ARROW    &none            &none  &none  &none
-&trans  &none  &none  &none   &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none  &none
-&trans  &none  &none  &none   &none               &none                &none     &none   &none           &none           &none            &none  &none  &none
+&trans  &none  &none  &none   &none               &none                                  &none           &none           &none            &none  &none  &trans
+&trans  &none  &none  &none   &none               &none                                  &none           &kp UP_ARROW    &none            &none  &none  &trans
+&trans  &none  &none  &none   &kp LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)                    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none  &none  &trans
+&trans  &none  &none  &none   &none               &none                &none     &none   &none           &none           &none            &none  &none  &trans
                       &trans  &trans              &trans               &trans    &trans  &trans          &trans          &trans
             >;
 
