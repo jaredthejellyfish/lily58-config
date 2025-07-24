@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: lily58}
 layers:
   Base: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '=', TAB, Q, W, E, R, T, Y, U, I, O, P, '-', LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', '&td_shift_caps',
-    Z, X, C, V, B, '[', ']', N, M, ',', ., /, Ctl+`, LALT, LGUI, Lower, SPACE, RET, nav, BSPC, RGUI]
+    Z, X, C, V, B, '[', ']', N, M, ',', ., /, Ctl+`, LALT, LGUI, Lower, SPACE, RET, util, BSPC, RGUI]
   Lower:
   - BT CLR
   - {t: BT, h: '0'}
@@ -61,29 +61,29 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  nav:
+  util:
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - PREV
+  - PP
+  - NEXT
   - BRI DN
   - BRI UP
+  - Ctl+Sft+[
+  - PG UP
+  - HOME
+  - Ctl+C
+  - Ctl+V
+  - DEL
   - {t: ▽, type: trans}
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - Ctl+Z
+  - Ctl+Y
+  - Ctl+A
+  - VOL DN
+  - VOL UP
+  - Alt+TAB
   - UP ARROW
-  - ''
-  - ''
+  - END
+  - Ctl+X
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -95,7 +95,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - ''
+  - PG DN
   - ''
   - ''
   - {t: ▽, type: trans}
