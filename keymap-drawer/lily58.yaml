@@ -63,27 +63,27 @@ layers:
   - {t: ▽, type: trans}
   util:
   - {t: ▽, type: trans}
-  - PREV
-  - PP
-  - NEXT
+  - Gui+Sft+4
+  - Gui+Sft+Ctl+4
+  - MUTE
   - BRI DN
   - BRI UP
-  - Ctl+Sft+[
-  - PG UP
-  - HOME
-  - Ctl+C
-  - Ctl+V
-  - DEL
+  - AC DESKTOP SHOW ALL WINDOWS
+  - ''
+  - AC DESKTOP
+  - ''
+  - ''
+  - ''
   - {t: ▽, type: trans}
-  - Ctl+Z
-  - Ctl+Y
-  - Ctl+A
+  - PREV
+  - PLAY PAUSE
+  - NEXT
   - VOL DN
   - VOL UP
-  - Alt+TAB
+  - ''
   - UP ARROW
-  - END
-  - Ctl+X
+  - AC DESKTOP SHOW ALL APPLICATIONS
+  - ''
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -95,7 +95,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - PG DN
+  - ''
   - ''
   - ''
   - {t: ▽, type: trans}
