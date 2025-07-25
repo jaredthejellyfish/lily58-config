@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: kevinpastor #new entry
-      url-base: https://github.com/kevinpastor #new entry
+    - name: jaredthejellyfish 
+      url-base: https://github.com/jaredthejellyfish 
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-elemental #new entry
-      remote: kevinpastor #new entry
-      revision: main #new entry
+    - name: nice-view-lily 
+      remote: jaredthejellyfish 
+      revision: main 
   self:
     path: config
