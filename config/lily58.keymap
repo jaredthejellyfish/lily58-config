@@ -111,7 +111,7 @@
 };
 
 / {
-    led_strip: led_strip {
+    rgb_underglow: rgb_underglow {
         compatible = "worldsemi,ws2812-gpio";
         in-gpios = <&pro_micro 8 GPIO_ACTIVE_HIGH>;
         chain-length = <17>; /* 17 LEDs */
@@ -120,5 +120,5 @@
 };
 
 &{/chosen} {
-    zmk,underglow = &led_strip;
+    zmk,underglow = &rgb_underglow;
 };
