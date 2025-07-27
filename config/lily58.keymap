@@ -35,7 +35,6 @@
 
     gpio_key: gpio_key {
         compatible = "gpio-keys";
-
         wakeup_key: wakeup_key { gpios = <&pro_micro 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>; };
     };
 
@@ -113,7 +112,7 @@
 
 &led_strip {
     compatible = "worldsemi,ws2812-gpio";
-    in-gpios = <&pro_micro 17 GPIO_ACTIVE_HIGH>;
+    in-gpios = <&pro_micro 8 GPIO_ACTIVE_HIGH>;
     chain-length = <17>; /* 17 LEDs */
     color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
 };
